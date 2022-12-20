@@ -25,8 +25,10 @@ This project will be split into the following parts:
 
 ### Databricks Notebook
 
-[This notebook](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/4011400051450228/2812886958038011/6010338227229174/latest.html) is the main file for this project that runs on the Databricks Platform. Beside, it also have 4 Kafka files.
+- [This notebook](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/4011400051450228/2812886958038011/6010338227229174/latest.html) is the main file for this project that runs on the Databricks Platform. Beside, it also have 4 Kafka files.
+- For training notebook, visit [this notebook](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/4011400051450228/2169768177882707/6010338227229174/latest.html).
 
 ### Running project
 
+Import `dbc` files to databricks before running. Or import `Delta-Architecture.dbc` to import full source files.
 Run the files in sequential order `Install_Kafka` > `Kafka_Server_Start` > `Kafka_Producer` > `Kafka_Consumer`
