@@ -19,6 +19,10 @@ This project will be split into the following parts:
 4. ALS model to recommend restaurant popularity
 6. Conclusion
 
+### Architecture
+
+![](./delta-architect.png)
+
 ### Databricks Notebook
 
 [This notebook](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/4011400051450228/2812886958038011/6010338227229174/latest.html) is the main file for this project that runs on the Databricks Platform. Beside, it also have 4 Kafka files.
