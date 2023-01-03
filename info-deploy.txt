@@ -1,0 +1,3 @@
+1. Đăng kí tài khoản Databricks Comunity: https://docs.databricks.com/getting-started/community-edition.html
+2. Import 5 files .dbc lên Databricks workspace.
+3. Run các notebook lần lượt 'Install_Kafka' > 'Kafka_Server_Start' > 'Kafka_Producer' > 'Kafka_Consumer' > 'Restaurant Recommendation'
